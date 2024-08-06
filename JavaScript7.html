@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+// Question 1
+var positiveInteger=Number(prompt("Type any positive integer"));
+document.write("Number:"+positiveInteger);
+var roundOff1=Math.round(positiveInteger);
+document.write("<br>Round off number:"+roundOff1);
+var floor1=Math.floor(positiveInteger);
+document.write("<br>floor value:"+floor1);
+var ceil1=Math.ceil(positiveInteger);
+document.write("<br>ceil value:"+ceil1);
+
+// Question 2
+var negativeInteger=Number(prompt("Type any negative integer"));
+document.write("Number:"+negativeInteger);
+var roundOff2=Math.round(negativeInteger);
+document.write("<br>Round off number:"+roundOff2);
+var floor2=Math.floor(negativeInteger);
+document.write("<br>floor value:"+floor2);
+var ceil2=Math.ceil(negativeInteger);
+document.write("<br>ceil value:"+ceil2);
+
+// Question 3
+var userInput=Number(prompt("Type any number"));
+var absolute=Math.abs(userInput);
+document.write("<br>The absolute value of "+userInput+" is "+absolute);
+
+// Question 4
+var diceNumber = Math.floor(Math.random()*6 ) +1 ;
+document.write("<br>Random Dice Value:"+ diceNumber);
+
+// Question 5
+var coin= Math.floor(Math.random()* 2 ) +1;
+if(coin===1){
+  document.write("<br>"+coin);
+  document.write("<br>Random Coin Value: Tails");
+}
+if(coin===2){
+  document.write("<br>"+coin);
+  document.write("<br>Random Coin Value: Heads");
+}
+
+// Question 6
+var randomNumber = Math.floor(Math.random()* 100 ) +1;
+document.write("<br>Random Number between 1 and 100: "+randomNumber);
+
+// Question 7
+var weight=prompt("Enter your weight in kilograms");
+document.write("<br>The weight of the user is "+weight+" kilograms");
+
+// Question 8
+var RandomNumber = Math.floor(Math.random()* 10 ) +1;
+var Userinput=prompt("Guess the secret random number between 1 and 10");
+if(RandomNumber===Userinput){
+  alert("Congratulations");
+}
+else{
+  alert("Try again");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>  
+</body>
+</html>
